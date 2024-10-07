@@ -1,0 +1,199 @@
+/* General Body Styling */
+body {
+    background-image: url('Images\flowers.png'); /* Background flower image */
+    background-repeat: no-repeat;
+    background-position: center top; /* Positioning flowers */
+    background-size: contain; /* Adjust size to fit nicely */
+    background-color: #fbeff2; /* Light pink background */
+    font-family: 'Roboto', sans-serif; /* General text font */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Flower decoration in the header */
+header::before, header::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('Images\flowers.png'); /* Small flower for header */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Position the flowers */
+header::before {
+    top: 10px;
+    left: 10px;
+}
+
+header::after {
+    top: 10px;
+    right: 10px;
+}
+
+/* Logo Styling */
+header .logo h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4; /* Pink color for main heading */
+}
+
+header .logo h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ff8ba0; /* Lighter pink for subheading */
+}
+
+/* Navigation Menu Styling */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ff69b4; /* Pink link color */
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff8ba0;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.welcome-section h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4;
+}
+
+.welcome-section .tagline {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+/* Home Image Styling */
+.home-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Affirmations Section */
+.affirmations h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    color: #ff69b4;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.7); /* Puffy text effect */
+    margin-bottom: 10px;
+}
+
+.affirmations ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.affirmations ul li {
+    font-family: 'Amatic SC', cursive; /* Cute, playful font */
+    font-size: 1.8rem;
+    color: #ff8ba0; /* Soft pink */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.5); /* Light shadow for puffy effect */
+}
+
+/* Quotes Section */
+.quotes-section {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.quotes-section h3 {
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.quotes-section blockquote {
+    font-family: 'Amatic SC', cursive; /* Puffy cute font for quotes */
+    font-size: 2rem;
+    font-style: italic;
+    color: #ff69b4;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fbeff2;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.5); /* Puffy text effect */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Gallery */
+.image-gallery {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.image-gallery h3 {
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4;
+}
+
+.image-gallery .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-gallery .gallery-item {
+    margin: 10px;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    margin: 0;
+}
+/* Adjust the size of the first image to make it smaller and cute */
+.welcome-section .home-image {
+    max-width: 50%;  /* This sets the image width to 50% of its container */
+    height: auto;    /* This maintains the aspect ratio */
+    border-radius: 15px; /* Slightly rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for a cute effect */
+    margin-bottom: 30px;
+}

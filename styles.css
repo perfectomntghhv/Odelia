@@ -1,0 +1,165 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fef5f9; /* Light pink background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #ffb6c1; /* Soft pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    font-family: 'Pacifico', cursive; /* Script font for feminine touch */
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Welcome Section */
+.welcome-section h2 {
+    color: #ff69b4; /* Hot pink for titles */
+    font-family: 'Pacifico', cursive;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.welcome-section .tagline {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #ff6f91; /* Medium pink for emphasis */
+}
+
+.home-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.affirmations {
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.affirmations h3 {
+    font-size: 1.5em;
+    color: #ff69b4;
+}
+
+.affirmations ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.affirmations ul li {
+    background-color: #ffebf0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Quotes Section */
+.quotes-section {
+    background-color: #ffe4e1;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.quotes-section h3 {
+    font-size: 1.8em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-left: 5px solid #ff69b4;
+    background-color: #fff;
+}
+
+blockquote span {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+}
+
+/* Image Gallery */
+.image-gallery h3 {
+    font-size: 1.8em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
